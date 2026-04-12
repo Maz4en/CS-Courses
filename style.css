@@ -140,7 +140,7 @@ select {
     margin-top: 5px;
     margin-bottom: 20px;
     border: 0.1px solid rgb(0, 183, 255);
-    border-radius: 20px;
+    border-radius: 9px;
     background-color: #2a2a2a;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -150,8 +150,8 @@ input[type="number"] {
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 20px;
-    border: 3px solid rgb(0, 183, 255);
-    border-radius: 20px;
+    border: 0.1px solid rgb(0, 183, 255);
+    border-radius: 9px;
     background-color: #2a2a2a;
     color: #cccccc;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -162,7 +162,7 @@ textarea {
     margin-top: 5px;
     margin-bottom: 20px;
     border: 0.1px solid rgb(0, 183, 255);
-    border-radius: 5px;
+    border-radius: 9px;
     background-color: #2a2a2a;
     color: #cccccc;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -176,7 +176,7 @@ button {
     color: #00b7ff;
     border: none;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 9px;
     cursor: pointer;
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -206,8 +206,8 @@ input[type="text"] {
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 20px;
-    border: 3px solid rgb(0, 183, 255);
-    border-radius: 20px;
+    border:  0.1px solid rgb(0, 183, 255);
+    border-radius: 9px;
     background-color: #2a2a2a;
     color: #cccccc;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
