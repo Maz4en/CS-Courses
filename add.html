@@ -19,24 +19,25 @@
 
 		<main>
 			<section>
-				<h1>Add Courses</h1>
+				<h1>Add Courses</h1><br>
 				<p>Now you can fill out the form and choose courses you need</p>
 				<form action="course.html">
 					<img src="images/image.png" alt="form-icon" class="form-icon"><br>
+					<label for="cInstructor">Instructor</label><br>
+					<input type="text" id="cInstructor" name="cInstructor" placeholder="Instructor Name"><br>
+
 					<label for="cName">Course Name</label></br>
-					<select multiple>
+					<select>
 						<option name="CS">CS</option>
 						<option name="IT">IT</option>
 						<option name="Mat">Math</option>
 						<option name="Sta">Stat</option>
 						<option name="ELc">Electronics</option>
-					
-					
 					</select><br>
 					
 
 					<label for="cHours">Credit Hours</label></br>
-					<input type="number" min="11" max="18" id="cHours" name="cHours" placeholder="">
+					<input type="number" min="2" max="4" id="cHours" name="cHours" placeholder="Credit Hours">
 					
 					<br><label for="cNotes">Notes</label><br>
 					<textarea placeholder="Notes"></textarea>
