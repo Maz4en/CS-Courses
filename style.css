@@ -21,6 +21,10 @@ nav a:hover {
     color: #000;
 }
 
+.hover a {
+    background-color: #00b7ff;
+    color: #000;
+}
 header span {
     color :rgb(0, 183, 255);
     font-weight: bold;
