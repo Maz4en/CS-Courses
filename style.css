@@ -1,0 +1,203 @@
+body {
+    margin:0;
+    background: #181818;
+}
+
+header {
+  background: #0d0d0d;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  border-bottom: 1px solid #1f1f1f;
+  position: sticky;
+  color: white;
+  font-family: cursive;
+}
+
+nav a:hover {
+    background-color: #00b7ff;
+    color: #000;
+}
+
+header span {
+    color :rgb(0, 183, 255);
+    font-weight: bold;
+    
+}
+nav {
+  display: inline-flex;
+  gap: 26px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 26px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+section {
+    max-width: 900px; 
+    margin: 80px auto; 
+    padding: 0 20px;
+}
+section h1 {
+    color :rgb(255, 255, 255);
+    padding : 0 ;
+    margin-bottom: 20px;
+    font-size: 55px;
+    display: inline-block;
+     font-family: cursive;
+}
+section p {
+    padding: 0; 
+    color: #cccccc;
+    font-size: 23px;
+    line-height: 1.7;
+    display: inline-block;
+    font-family: cursive;
+    margin: 0;
+}
+.main-header a {
+    text-decoration: none;
+    color: white;
+}
+footer {
+    background: #0d0d0d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-family: cursive;
+}
+/* -------Course Section------- */
+table {
+    width: 90%;       
+    max-width: 1000px;    
+    margin: 20px auto 100px; 
+    border-collapse: collapse; 
+    font-family: 'Segoe UI', Tahoma, sans-serif; 
+    color: white;
+    background-color: #1f1f1f; 
+    border: 2px solid rgb(0, 183, 255); 
+    border-radius: 40px;
+    overflow: hidden; 
+}
+
+th {
+    background-color: rgb(0, 183, 255);
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+}
+
+td {
+    padding: 15px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+
+tbody tr:hover {
+    background-color: #2a2a2a;
+    transition: 0.3s;
+}
+
+/* ---------Add Section--------*/
+
+label {
+    color:white;
+    font-family: cursive;
+}
+form {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 30px;
+    font-family: cursive;
+    background-color: #1f1f1f;
+    border: 1px solid #1f1f1f;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 20px;
+    position: flex;
+}
+select {
+    width: 30%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 0.1px solid rgb(0, 183, 255);
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: white;
+    font-family: cursive;
+}
+input[type="number"] {
+    width: 30%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 0.1px solid rgb(0, 183, 255);
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #cccccc;
+    font-family: cursive;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 0.1px solid rgb(0, 183, 255);
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #cccccc;
+    font-family: cursive;
+}
+button {
+    display: block;
+    padding: 10px 20px;
+    margin: 20px auto;
+    position: center;
+    background-color: black;
+    color: #00b7ff;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: cursive;
+    transition: 0.3s;
+    
+}
+button:hover {
+        background-color: #00b7ff;
+        color:black;
+    }
+.form-icon {
+    width: 200;
+    height: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    float: right;
+}
+/* --------Contact Section-------- */
+#contact ul li {
+    list-style: none;
+    margin: 10px 0;
+    color: white;
+    font-family: cursive;
+}
