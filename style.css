@@ -16,12 +16,8 @@ header {
   font-family: cursive;
 }
 
-.contact {
-    background-color: #00b7ff;
-    color: #000;
-}
 
-.hover a {
+a:hover {
     background-color: #00b7ff;
     color: #000;
 }
