@@ -145,6 +145,19 @@ select {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+select:hover {
+    background-color: #00b7ff;
+    color: black;
+    border-color: #2a2a2a;
+}
+
+option {
+    background-color: #2a2a2a;
+    color: white;
+
+}
+
 input[type="number"] {
     width: 30%;
     padding: 10px;
