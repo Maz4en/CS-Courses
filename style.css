@@ -4,16 +4,19 @@ body {
 }
 
 header {
-  background: #0d0d0d;
-  padding: 0 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 60px;
-  border-bottom: 1px solid #1f1f1f;
-  position: sticky;
-  color: white;
-  font-family: cursive;
+    background: #0d0d0d;
+    padding: 0 2rem;
+    display: flex;
+    height: 60px;
+    border-bottom: 1px solid #1f1f1f;
+    position: sticky;
+    color: white;
+    font-family: cursive;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
 }
 
 
